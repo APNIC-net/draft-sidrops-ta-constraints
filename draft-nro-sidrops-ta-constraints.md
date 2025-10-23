@@ -1,6 +1,6 @@
 %%%
-Title = "RPKI Trust Anchor Constraints"
-abbrev = "RPKI Trust Anchor Constraints"
+Title = "Signed Distributed Trust Anchor Constraints for use with the Resource Public Key Infrastructure (RPKI)"
+abbrev = "Signed Distributed TA Constraints for RPKI"
 ipr = "trust200902"
 
 [seriesInfo]
