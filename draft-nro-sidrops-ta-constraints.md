@@ -113,6 +113,12 @@ having a set of TAs issue various signed objects that attest to their
 shared understanding of the resources for which each TA is
 authoritative.
 
+## Relationship to other work
+
+This document specifies a method to construct and sign Trust Anchor
+constraints which then can serve as input to the process described in
+[@?I-D.snij-sidrops-constraining-rpki-trust-anchors].
+
 ## Glossary
 
 This section describes the terminology and abbreviations used in this
