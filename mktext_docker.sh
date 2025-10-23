@@ -1,5 +1,5 @@
 #!/bin/bash
-DRAFT="draft-nro-sidrops-ta-consensus-00"
+DRAFT="draft-nro-sidrops-ta-constraints"
 
 docker run --rm \
     -v "$PWD":/rfc \

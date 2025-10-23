@@ -1,1 +1,5 @@
 *.swp
+draft-*.pdf
+draft-*.html
+draft-*.xml
+draft-*.txt
