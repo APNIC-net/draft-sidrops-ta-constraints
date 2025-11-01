@@ -1,6 +1,6 @@
 %%%
-Title = "RPKI Trust Anchor Constraints"
-abbrev = "RPKI Trust Anchor Constraints"
+Title = "Signed Distributed Trust Anchor Constraints for use with the Resource Public Key Infrastructure (RPKI)"
+abbrev = "Signed Distributed TA Constraints for RPKI"
 ipr = "trust200902"
 
 [seriesInfo]
@@ -112,6 +112,17 @@ resources for which they are not authoritative. This is achieved by
 having a set of TAs issue various signed objects that attest to their
 shared understanding of the resources for which each TA is
 authoritative.
+
+## Related work
+
+This document specifies a method to construct and sign Trust Anchor
+constraints which then can serve as input to the process described in
+[@?I-D.snij-sidrops-constraining-rpki-trust-anchors].
+
+Constraints computed using the methodology specified in this document
+can also be used to construct "Trust Anchor overlay" configurations,
+see [experimental-nro-ta](https://labs.apnic.net/nro-ta/) for an example
+of an overlay.
 
 ## Glossary
 
